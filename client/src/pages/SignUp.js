@@ -14,7 +14,7 @@ function Signup() {
     const user = { name, email, password, role };
     try {
       await axios.post(
-        "https://nasa-api-react-project-production-9534.up.railway.app/register",
+        "https://nasa-api-react-application-production.up.railway.app/register",
         user
       );
       alert("Registration Successful.");

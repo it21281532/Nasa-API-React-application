@@ -12,7 +12,7 @@ function Login() {
     try {
       const user = { email, password };
       const response = await axios.post(
-        "https://nasa-api-react-project-production-9534.up.railway.app/login",
+        "https://nasa-api-react-application-production.up.railway.app/login",
         user
       );
       const token = response.data.token;
