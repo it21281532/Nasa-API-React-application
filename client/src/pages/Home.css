@@ -1,0 +1,43 @@
+.hover-scale {
+    
+    padding: 10px;
+    border-radius: 10px;
+    
+  }
+  
+
+.hover-scale:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    
+  }
+
+
+  /* Home.css */
+
+/* Add a media query to adjust the layout for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px; /* Add padding to the sides */
+    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+    display: flex; /* Use flexbox to vertically center content */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: center; /* Vertically center content */
+  }
+  .grid {
+    grid-template-columns: 1fr; /* Change to a single column layout */
+    margin-top: 260px;
+    margin-bottom: 0px;
+  }
+  /* Home.css */
+
+.bottom-container {
+  margin-bottom: 280px; /* Adjust the value as needed */
+}
+
+
+
+
+}
+/* Home.css */
+
