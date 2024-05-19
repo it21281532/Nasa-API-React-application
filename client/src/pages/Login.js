@@ -11,7 +11,10 @@ function Login() {
     event.preventDefault();
     try {
       const user = { email, password };
-      const response = await axios.post("http://localhost:/login", user);
+      const response = await axios.post(
+        "https://nasa-api-react-application-production.up.railway.app/login",
+        user
+      );
       const token = response.data.token;
       alert("Login Successful");
       setEmail("");
